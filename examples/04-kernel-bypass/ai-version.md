@@ -1,10 +1,4 @@
-
----
-
-## examples/02-rdma-fpga/ai-version.c
-
-```c
-/ Simplified RDMA (Remote Direct Memory Access) setup    
+// Simplified RDMA (Remote Direct Memory Access) setup
 // Bypasses entire network stack, writes exchange packets directly to FPGA memory
 
 #include <infiniband/verbs.h>

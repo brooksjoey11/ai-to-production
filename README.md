@@ -6,41 +6,6 @@ AI is great at first drafts. Terrible at error handling, edge cases, security, a
 
 This repo shows real examples of AI-generated code vs. production-ready versions I've fixed.
 
-## Examples
-
-| Example | Domain | Skill Level | What AI Missed |
-|---------|--------|-------------|----------------|
-| [01-backup-script](./examples/01-backup-script) | Bash | Entry-level | Argument validation, error handling, path safety, disk space checks |
-
-## What's Inside Each Example
-
-Every example includes:
-
-### 🔍 The AI Version
-The original AI-generated code—what most people get when they ask AI for help.
-
-### ⚠️ What AI Missed
-A forensic breakdown of every hidden issue:
-- Missing error handling
-- Silent failures
-- Security holes
-- Edge cases
-- Resource leaks
-
-### ✅ The Production Version
-Complete, working code with:
-- Full error handling
-- Validation at every step
-- Proper cleanup
-- Documentation
-- Installation instructions
-- Usage examples
-- Verification procedures
-- Troubleshooting guides
-
-### 📊 The Analysis
-What improved, critical fixes, hidden risks, and why it matters.
-
 ## Why This Exists
 
 Companies use AI to move faster. Then they discover the code:
@@ -51,6 +16,33 @@ Companies use AI to move faster. Then they discover the code:
 - Breaks at 3 AM
 
 I fix that.
+
+## Examples
+
+| Example | Domain | Description |
+|---------|--------|-------------|
+| [01-backup-script](./examples/01-backup-script) | Bash | A simple backup script that looks fine but loses data |
+| [02-rdma-fpga](./examples/02-rdma-fpga) | C/InfiniBand | High-frequency trading packet receiver that would crash instantly |
+
+## What Each Example Shows
+
+Every example includes:
+
+### 🔍 The AI Version
+What most people get when they ask AI for help. Looks plausible. Doesn't work.
+
+### ✅ The Production Version
+Complete, working code with:
+- Full error handling
+- Validation at every step
+- Proper cleanup
+- Documentation
+- Installation guides
+- Verification procedures
+- Troubleshooting
+
+### 📊 The Analysis
+A forensic breakdown of what AI missed and why it matters.
 
 ## Hire Me
 
