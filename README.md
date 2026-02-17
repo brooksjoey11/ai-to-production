@@ -1,10 +1,47 @@
-# ai-to-production
-AI writes it. I fix what AI misses: edge cases, error handling, security, and reliability.
 # AI to Production
 
-**I take code that AI generates and make it actually work.**
+**I take code that AI generates and make it actually work in production.**
 
-AI is great at first drafts. Terrible at production.
+AI is great at first drafts. Terrible at error handling, edge cases, security, and the 90% of work that makes code reliable.
+
+This repo shows real examples of AI-generated code vs. production-ready versions I've fixed.
+
+## Examples
+
+| Example | Domain | Skill Level | What AI Missed |
+|---------|--------|-------------|----------------|
+| [01-backup-script](./examples/01-backup-script) | Bash | Entry-level | Argument validation, error handling, path safety, disk space checks |
+
+## What's Inside Each Example
+
+Every example includes:
+
+### 🔍 The AI Version
+The original AI-generated code—what most people get when they ask AI for help.
+
+### ⚠️ What AI Missed
+A forensic breakdown of every hidden issue:
+- Missing error handling
+- Silent failures
+- Security holes
+- Edge cases
+- Resource leaks
+
+### ✅ The Production Version
+Complete, working code with:
+- Full error handling
+- Validation at every step
+- Proper cleanup
+- Documentation
+- Installation instructions
+- Usage examples
+- Verification procedures
+- Troubleshooting guides
+
+### 📊 The Analysis
+What improved, critical fixes, hidden risks, and why it matters.
+
+## Why This Exists
 
 Companies use AI to move faster. Then they discover the code:
 - Has no error handling
@@ -13,23 +50,7 @@ Companies use AI to move faster. Then they discover the code:
 - Can't handle real-world inputs
 - Breaks at 3 AM
 
-That's where I come in.
-
-## What I Do
-
-I take AI prototypes and turn them into code you can actually run without fear.
-
-## Real Examples
-
-### [Backup Script](./examples/01-backup-script)
-
-**The AI version:** 5 lines, no validation, announces "success" even when it fails
-
-**Production version:** Full error handling, path validation, disk space checking, verification, documentation
-
-[See the fix →](./examples/01-backup-script)
-
-### [More examples coming soon]
+I fix that.
 
 ## Hire Me
 
@@ -38,9 +59,4 @@ Companies hire me to:
 - Fix existing AI code that's causing problems
 - Train teams to spot AI's blind spots
 
-[LinkedIn] | [Email] | [Twitter]
-
-## Testimonials
-
-> "Joey took our AI-generated prototype and made it production-ready in 2 days. Found 17 issues we never saw."
-> — CTO, [Startup Name]
+[LinkedIn] | [Email] | [GitHub]
