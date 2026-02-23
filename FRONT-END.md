@@ -1,4 +1,4 @@
-# Front-End Technical Specification: AI to Production
+# Front-End Technical Specs: AI to Production
 
 1. Overview
 
