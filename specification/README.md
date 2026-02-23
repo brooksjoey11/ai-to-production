@@ -1,4 +1,3 @@
-```
 # AI TO PRODUCTION – COMPLETE BUILD SPECIFICATION
 
 ## MISSION
@@ -309,4 +308,3 @@ Before finalizing, ensure:
 · All prompts are included verbatim.
 · No placeholders remain.
 
-```
