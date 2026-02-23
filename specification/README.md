@@ -1,4 +1,4 @@
-# AI TO PRODUCTION – COMPLETE BUILD SPECIFICATION
+## AI TO PRODUCTION – COMPLETE BUILD SPECS
 
 ## MISSION
 Build a production‑ready, high‑credibility SaaS web application called **AI to Production** that automatically fixes AI‑generated code. The system must accept user code (paste or file upload), run it through a three‑step **fresh‑instance LLM pipeline**, and return improved code plus a forensic dossier and manager report. All components must run on Google Cloud Platform (GCP) with minimal complexity and cost.
